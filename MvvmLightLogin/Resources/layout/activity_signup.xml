@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+		android:text="Sign Up"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1" />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/et_firstname"
+		android:maxLines="1"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:background="@drawable/edittext_border"
+		android:hint="First Name"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/et_lastname"
+		android:maxLines="1"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:background="@drawable/edittext_border"
+		android:hint="Last Name"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/et_username"
+		android:maxLines="1"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:background="@drawable/edittext_border"
+		android:hint="UserName"/>
+
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/edittext_border"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:id="@+id/et_password"
+		android:hint="Password"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/edittext_border"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:id="@+id/et_phonenumber"
+		android:inputType="number"
+		android:maxLength="14"
+		android:hint="Phone Number"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/edittext_border"
+		android:layout_margin="10dp"
+		android:inputType="none"
+		android:padding="10dp"
+		android:id="@+id/et_startdate"
+		android:hint="StartDate"/>
+
+	<Button
+		android:text="Create Account"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:maxLines="1"
+		android:shadowColor="@android:color/darker_gray"
+		android:background="@android:color/holo_blue_dark"
+		android:id="@+id/btnCreate" />
+</LinearLayout>

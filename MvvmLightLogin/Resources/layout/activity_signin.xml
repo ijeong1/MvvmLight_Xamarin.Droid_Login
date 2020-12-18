@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="20dp">
+
+	<TextView
+		android:text="Sign In"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1" />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/et_username"
+		android:layout_margin="10dp"
+		android:maxLines="1"
+		android:padding="10dp"
+		android:background="@drawable/edittext_border"
+		android:hint="Username"/>
+
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/edittext_border"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:id="@+id/et_password"
+		android:hint="Password"/>
+
+	<Button
+		android:text="Sign In"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:shadowColor="@android:color/darker_gray"
+		android:background="@android:color/holo_blue_dark"
+		android:id="@+id/btnSignin" />
+
+	<Button
+		android:text="New User? Create Account"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/mtrl_btn_transparent_bg_color"
+		android:shadowColor="@android:color/darker_gray"
+		android:id="@+id/btnSignup" />
+
+	
+</LinearLayout>

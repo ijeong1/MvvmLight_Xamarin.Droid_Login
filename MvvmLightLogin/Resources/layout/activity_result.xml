@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+		android:text="Success!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1" />
+
+	<ImageView
+		android:src="@drawable/green"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		
+		android:layout_marginTop="20dp"
+		android:id="@+id/imageView1" />
+
+	<TextView
+		android:text="Account Successfully Created"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:id="@+id/textView2" />
+
+	<Button
+		android:text="Login Now?"
+		android:layout_marginTop="50dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:shadowColor="@android:color/darker_gray"
+		android:background="@android:color/holo_blue_dark"
+		android:id="@+id/btnLogIn" />
+
+	
+</LinearLayout>
